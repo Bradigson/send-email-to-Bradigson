@@ -24,6 +24,9 @@ form{
     resize:none;
     margin-top:5px;
 }
+#message{
+    height:110px;
+}
 form > label{
     margin-top:10px;
 }
@@ -134,12 +137,15 @@ form > label{
         animation-name:run;
         animation-duration:45s;
         animation-iteration-count:infinite;
+        animation-timing-function:linear;
+
     }
     #img2{
         left:-300px;
         animation-name:run;
-        animation-duration:35s;
+        animation-duration:25s;
         animation-iteration-count:infinite;
+        animation-timing-function:linear;
     }
     @keyframes run{
         0%{
